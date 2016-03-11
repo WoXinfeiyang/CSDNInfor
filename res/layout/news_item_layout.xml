@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    >
+    <!-- 新闻标题 -->
+    <TextView 
+        android:id="@+id/newsItem_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="如何有效地在海外市场推广产品？"/>
+    
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:baselineAligned="true"
+	    >
+	    <!-- 新闻图片 -->
+		<ImageView 
+		        android:id="@+id/newsItem_newsImg"
+		        android:src="@drawable/images"
+		        android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_marginRight="8dp"
+		    	android:visibility="visible"/>
+	
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_gravity="center_vertical"
+	        android:layout_weight="1"
+	        android:gravity="center_vertical"
+	        android:orientation="vertical" >
+			
+	        <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="0dp"
+	            android:layout_weight="1"
+	            android:gravity="top" >
+				<!-- 新闻的内容 -->
+	            <TextView
+	                android:id="@+id/newsItem_content"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:gravity="top"
+	                android:maxLines="2"
+	                android:text="3D打印机一直以来只能进行单向操作，任务一旦开始便无法反悔。不过最近一批研究生研发了一种新型打印机，让你在打印的同时，可以修改重塑之前的设计。让我们一起来看看这个神奇的设备究竟是怎样的吧。"
+	                android:textColor="@color/nomalGray"
+	                android:textSize="14sp"
+	                 />
+	
+	            
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_vertical" >
+				<!-- 新闻发布的时间 -->
+	            <TextView
+	                android:id="@+id/newsItem_date"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:gravity="center_vertical|right"
+	                android:paddingTop="8dp"
+	                android:singleLine="true"
+	                android:text="13分钟前|11次阅读"
+	                android:textSize="12sp"
+	                android:textColor="@color/nomalGray" />
+	
+	            <!-- 新闻ID -->
+	            <TextView
+	                android:id="@+id/newsItem_id"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:paddingTop="16dp"
+	                android:text="1"
+	                android:gravity="right"
+	                android:visibility="gone"
+	                android:textColor="@color/nomalGray"
+	                 />
+	        </LinearLayout>
+	    </LinearLayout>
+	</LinearLayout>   
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/gesture-imageview"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/imageloadlibrary"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/library"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/viewPagerlibrary"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/XListView"/>
+	<classpathentry kind="lib" path="libs/jsoup-1.7.2.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
